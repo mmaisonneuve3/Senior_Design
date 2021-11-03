@@ -1,0 +1,226 @@
+# Created by Ultra Librarian Gold 8.3.302 Copyright © 1999-2021
+# Frank Frank, Accelerated Designs
+
+Grid mil;
+Set Wire_Bend 2;
+
+
+Edit 'CONN_3M_2900.pac';
+Grid Mil;
+Layer 1;
+Smd '1' 32 59 -0 R0 (-69.7649 135.7824);
+Layer 1;
+Smd '2' 32 59 -0 R0 (-26.7649 119.7824);
+Layer 1;
+Smd '3' 32 59 -0 R0 (16.2351 135.7824);
+Layer 1;
+Smd '4' 32 59 -0 R0 (59.2351 143.7824);
+Layer 1;
+Smd '5' 32 59 -0 R0 (102.2351 135.7824);
+Layer 1;
+Smd '6' 32 59 -0 R0 (145.2351 143.7824);
+Layer 1;
+Smd '7' 32 59 -0 R0 (188.2351 135.7824);
+Layer 1;
+Smd '8' 32 59 -0 R0 (231.2351 135.7824);
+Layer 1;
+Smd '9' 55 75 -0 R0 (-263.5 275.5);
+Layer 1;
+Smd '10' 55 75 -0 R0 (257.9032 247.1017);
+Layer 1;
+Smd '12' 71 55 -0 R0 (194.5 -283);
+Layer 1;
+Smd '11' 71 55 -0 R0 (-30.5 -283);
+Layer 21;
+Wire 6 (-276 -299) (-84 -299);
+Wire 6 (276 -299) (276 196);
+Wire 6 (276 299) (-223 299);
+Wire 6 (-276 225) (-276 -299);
+Wire 6 (238 -299) (276 -299);
+Wire 6 (13 -299) (141 -299);
+Layer 51;
+Wire 6 (-276 -299) (276 -299);
+Wire 6 (276 -299) (276 299);
+Wire 6 (276 299) (-276 299);
+Wire 6 (-276 299) (-276 -299);
+Layer 25;
+Change Size 50;
+Change Ratio 6;
+Text '>Name' SR0 (-129 -324);
+Layer 27;
+Change Size 50;
+Change Ratio 6;
+Text '>Value' SR0 (-68 -324);
+
+Edit '2908-05WB-MG.sym';
+Grid Mil;
+Layer 94;
+Pin '1' Pas None Middle R0 Pad 0 (0 0)
+Pin '2' Pas None Middle R0 Pad 0 (0 -100)
+Pin '3' Pas None Middle R0 Pad 0 (0 -200)
+Pin '4' Pas None Middle R0 Pad 0 (0 -300)
+Pin '5' Pas None Middle R0 Pad 0 (0 -400)
+Pin '6' Pas None Middle R0 Pad 0 (0 -500)
+Pin '7' Pas None Middle R0 Pad 0 (0 -600)
+Pin '8' Pas None Middle R0 Pad 0 (0 -700)
+Pin '9' Pas None Middle R0 Pad 0 (0 -800)
+Pin '10' Pas None Middle R0 Pad 0 (0 -900)
+Pin '11' Pas None Middle R0 Pad 0 (0 -1000)
+Pin '12' Pas None Middle R0 Pad 0 (0 -1100)
+Wire 8 (400 0) (200 0);
+Wire 8 (400 -100) (200 -100);
+Wire 8 (400 -200) (200 -200);
+Wire 8 (400 -300) (200 -300);
+Wire 8 (400 -400) (200 -400);
+Wire 8 (400 -500) (200 -500);
+Wire 8 (400 -600) (200 -600);
+Wire 8 (400 -700) (200 -700);
+Wire 8 (400 -800) (200 -800);
+Wire 8 (400 -900) (200 -900);
+Wire 8 (400 -1000) (200 -1000);
+Wire 8 (400 -1100) (200 -1100);
+Wire 8 (400 0) (350 33);
+Wire 8 (400 -100) (350 -67);
+Wire 8 (400 -200) (350 -167);
+Wire 8 (400 -300) (350 -267);
+Wire 8 (400 -400) (350 -367);
+Wire 8 (400 -500) (350 -467);
+Wire 8 (400 -600) (350 -567);
+Wire 8 (400 -700) (350 -667);
+Wire 8 (400 -800) (350 -767);
+Wire 8 (400 -900) (350 -867);
+Wire 8 (400 -1000) (350 -967);
+Wire 8 (400 -1100) (350 -1067);
+Wire 8 (400 0) (350 -33);
+Wire 8 (400 -100) (350 -133);
+Wire 8 (400 -200) (350 -233);
+Wire 8 (400 -300) (350 -333);
+Wire 8 (400 -400) (350 -433);
+Wire 8 (400 -500) (350 -533);
+Wire 8 (400 -600) (350 -633);
+Wire 8 (400 -700) (350 -733);
+Wire 8 (400 -800) (350 -833);
+Wire 8 (400 -900) (350 -933);
+Wire 8 (400 -1000) (350 -1033);
+Wire 8 (400 -1100) (350 -1133);
+Wire 8 (200 100) (200 -1200);
+Wire 8 (200 -1200) (500 -1200);
+Wire 8 (500 -1200) (500 100);
+Wire 8 (500 100) (200 100);
+Layer 97;
+Layer 95;
+Change Size 82;
+Change Ratio 6;
+Text '>Name' SR0 (164 209);
+
+Edit '2908-05WB-MG_2.sym';
+Grid Mil;
+Layer 94;
+Pin '1' Pas None Middle R0 Pad 0 (0 0)
+Pin '2' Pas None Middle R0 Pad 0 (0 -100)
+Pin '3' Pas None Middle R0 Pad 0 (0 -200)
+Pin '4' Pas None Middle R0 Pad 0 (0 -300)
+Pin '5' Pas None Middle R0 Pad 0 (0 -400)
+Pin '6' Pas None Middle R0 Pad 0 (0 -500)
+Pin '7' Pas None Middle R0 Pad 0 (0 -600)
+Pin '8' Pas None Middle R0 Pad 0 (0 -700)
+Pin '9' Pas None Middle R0 Pad 0 (0 -800)
+Pin '10' Pas None Middle R0 Pad 0 (0 -900)
+Pin '11' Pas None Middle R0 Pad 0 (0 -1000)
+Pin '12' Pas None Middle R0 Pad 0 (0 -1100)
+Wire 8 (300 0) (200 0);
+Wire 8 (300 -100) (200 -100);
+Wire 8 (300 -200) (200 -200);
+Wire 8 (300 -300) (200 -300);
+Wire 8 (300 -400) (200 -400);
+Wire 8 (300 -500) (200 -500);
+Wire 8 (300 -600) (200 -600);
+Wire 8 (300 -700) (200 -700);
+Wire 8 (300 -800) (200 -800);
+Wire 8 (300 -900) (200 -900);
+Wire 8 (300 -1000) (200 -1000);
+Wire 8 (300 -1100) (200 -1100);
+Wire 8 (300 0) (350 33);
+Wire 8 (300 -100) (350 -67);
+Wire 8 (300 -200) (350 -167);
+Wire 8 (300 -300) (350 -267);
+Wire 8 (300 -400) (350 -367);
+Wire 8 (300 -500) (350 -467);
+Wire 8 (300 -600) (350 -567);
+Wire 8 (300 -700) (350 -667);
+Wire 8 (300 -800) (350 -767);
+Wire 8 (300 -900) (350 -867);
+Wire 8 (300 -1000) (350 -967);
+Wire 8 (300 -1100) (350 -1067);
+Wire 8 (300 0) (350 -33);
+Wire 8 (300 -100) (350 -133);
+Wire 8 (300 -200) (350 -233);
+Wire 8 (300 -300) (350 -333);
+Wire 8 (300 -400) (350 -433);
+Wire 8 (300 -500) (350 -533);
+Wire 8 (300 -600) (350 -633);
+Wire 8 (300 -700) (350 -733);
+Wire 8 (300 -800) (350 -833);
+Wire 8 (300 -900) (350 -933);
+Wire 8 (300 -1000) (350 -1033);
+Wire 8 (300 -1100) (350 -1133);
+Wire 8 (200 100) (200 -1200);
+Wire 8 (200 -1200) (500 -1200);
+Wire 8 (500 -1200) (500 100);
+Wire 8 (500 100) (200 100);
+Layer 97;
+Layer 95;
+Change Size 82;
+Change Ratio 6;
+Text '>Name' SR0 (164 209);
+
+Edit '2908-05WB-MG_3.sym';
+Grid Mil;
+Layer 94;
+Pin '1' Pas None Middle R0 Pad 0 (0 0)
+Pin '2' Pas None Middle R0 Pad 0 (0 -100)
+Pin '3' Pas None Middle R0 Pad 0 (0 -200)
+Pin '4' Pas None Middle R0 Pad 0 (0 -300)
+Pin '5' Pas None Middle R0 Pad 0 (0 -400)
+Pin '6' Pas None Middle R0 Pad 0 (0 -500)
+Pin '7' Pas None Middle R0 Pad 0 (0 -600)
+Pin '8' Pas None Middle R0 Pad 0 (0 -700)
+Pin '9' Pas None Middle R0 Pad 0 (0 -800)
+Pin '10' Pas None Middle R0 Pad 0 (0 -900)
+Pin '11' Pas None Middle R0 Pad 0 (0 -1000)
+Pin '12' Pas None Middle R0 Pad 0 (0 -1100)
+Wire 8 (200 100) (200 -1200);
+Wire 8 (200 -1200) (500 -1200);
+Wire 8 (500 -1200) (500 100);
+Wire 8 (500 100) (200 100);
+Layer 97;
+Layer 95;
+Change Size 82;
+Change Ratio 6;
+Text '>Name' SR0 (164 209);
+
+Edit '2908-05WB-MG.dev';
+Prefix 'J';
+Description '';
+Value Off;
+Add 2908-05WB-MG 'A' Next  0 (0 0);
+Package 'CONN_3M_2900';
+Technology '';
+Attribute Copyright 'Copyright (C) 2021 Ultra Librarian. All rights reserved.';
+Attribute Mfr_Name '3M';
+Attribute Manufacturer_Part_Number '2908-05WB-MG';
+Attribute Digi-Key_Part_Number_1 '3M5607TR-ND';
+Attribute Digi-Key_Part_Number_2 '3M5607CT-ND';
+Attribute Digi-Key_Part_Number_3 '3M5607DKR-ND';
+Connect 'A.1' '1';
+Connect 'A.2' '2';
+Connect 'A.3' '3';
+Connect 'A.4' '4';
+Connect 'A.5' '5';
+Connect 'A.6' '6';
+Connect 'A.7' '7';
+Connect 'A.8' '8';
+Connect 'A.9' '9';
+Connect 'A.10' '10';
+Connect 'A.11' '11';
+Connect 'A.12' '12';
