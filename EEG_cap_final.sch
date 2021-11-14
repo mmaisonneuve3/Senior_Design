@@ -19845,8 +19845,8 @@ and VCAP1 to VCAP4 as close to the package as possible.</text>
 <attribute name="NAME" x="391.5156" y="258.0386" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="390.8806" y="255.4986" size="2.0828" layer="96" ratio="6" rot="SR0"/>
 </instance>
-<instance part="SUPPLY49" gate="G$1" x="381" y="233.68" smashed="yes">
-<attribute name="VALUE" x="378.46" y="231.14" size="1.778" layer="96"/>
+<instance part="SUPPLY49" gate="G$1" x="381" y="231.14" smashed="yes">
+<attribute name="VALUE" x="378.46" y="228.6" size="1.778" layer="96"/>
 </instance>
 <instance part="RA5" gate="A" x="238.76" y="254" smashed="yes">
 <attribute name="VALUE" x="237.4138" y="231.9528" size="3.4798" layer="96" ratio="10" rot="SR0"/>
@@ -19943,8 +19943,8 @@ and VCAP1 to VCAP4 as close to the package as possible.</text>
 <attribute name="NAME" x="391.5156" y="230.0986" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="390.8806" y="227.5586" size="2.0828" layer="96" ratio="6" rot="SR0"/>
 </instance>
-<instance part="SUPPLY62" gate="G$1" x="381" y="205.74" smashed="yes">
-<attribute name="VALUE" x="378.46" y="203.2" size="1.778" layer="96"/>
+<instance part="SUPPLY62" gate="G$1" x="381" y="203.2" smashed="yes">
+<attribute name="VALUE" x="378.46" y="200.66" size="1.778" layer="96"/>
 </instance>
 <instance part="J5" gate="G$1" x="391.16" y="182.88" smashed="yes">
 <attribute name="VALUE" x="381" y="193.04" size="1.778" layer="96" font="vector"/>
@@ -20210,7 +20210,7 @@ and VCAP1 to VCAP4 as close to the package as possible.</text>
 <wire x1="381" y1="251.46" x2="381" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="381" y1="241.3" x2="383.54" y2="241.3" width="0.1524" layer="91"/>
 <pinref part="SUPPLY49" gate="G$1" pin="GND"/>
-<wire x1="381" y1="236.22" x2="381" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="381" y1="233.68" x2="381" y2="241.3" width="0.1524" layer="91"/>
 <junction x="381" y="241.3"/>
 </segment>
 <segment>
@@ -20359,7 +20359,7 @@ and VCAP1 to VCAP4 as close to the package as possible.</text>
 <wire x1="381" y1="223.52" x2="381" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="381" y1="213.36" x2="383.54" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="SUPPLY62" gate="G$1" pin="GND"/>
-<wire x1="381" y1="208.28" x2="381" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="381" y1="205.74" x2="381" y2="213.36" width="0.1524" layer="91"/>
 <junction x="381" y="213.36"/>
 </segment>
 </net>
@@ -22944,6 +22944,35 @@ D0 = MISO</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="206,1,50.8,208.28,GND,,,,,"/>
+<approved hash="206,1,261.62,203.2,GND,,,,,"/>
+<approved hash="208,1,50.8,208.28,GND,out,,,,"/>
+<approved hash="208,1,48.26,116.84,GND,sup,,,,"/>
+<approved hash="208,1,177.8,119.38,GND,sup,,,,"/>
+<approved hash="208,1,143.256,217.17,GND,sup,,,,"/>
+<approved hash="208,1,197.104,182.626,GND,sup,,,,"/>
+<approved hash="208,1,151.13,217.424,GND,sup,,,,"/>
+<approved hash="208,1,143.51,88.392,GND,sup,,,,"/>
+<approved hash="208,1,83.82,88.392,GND,sup,,,,"/>
+<approved hash="208,1,129.54,88.392,GND,sup,,,,"/>
+<approved hash="208,1,114.3,88.392,GND,sup,,,,"/>
+<approved hash="208,1,99.06,88.392,GND,sup,,,,"/>
+<approved hash="208,1,261.62,203.2,GND,out,,,,"/>
+<approved hash="208,1,259.08,111.76,GND,sup,,,,"/>
+<approved hash="208,1,388.62,111.76,GND,sup,,,,"/>
+<approved hash="208,1,354.076,212.09,GND,sup,,,,"/>
+<approved hash="208,1,400.304,177.546,GND,sup,,,,"/>
+<approved hash="208,1,361.95,212.344,GND,sup,,,,"/>
+<approved hash="208,1,354.33,83.312,GND,sup,,,,"/>
+<approved hash="208,1,294.64,83.312,GND,sup,,,,"/>
+<approved hash="208,1,340.36,83.312,GND,sup,,,,"/>
+<approved hash="208,1,325.12,83.312,GND,sup,,,,"/>
+<approved hash="206,1,162.56,162.56,MISO_ADS,,,,,"/>
+<approved hash="206,1,373.38,157.48,MISO_ADS,,,,,"/>
+<approved hash="110,2,381,236.22,BIAS,GND,,,,"/>
+<approved hash="110,2,381,208.28,BIAS_1,GND,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
